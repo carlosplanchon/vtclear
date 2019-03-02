@@ -6,7 +6,7 @@ from distutils.core import setup
 setup(
     name="vtclear",
     packages=["vtclear"],
-    version="0.1",
+    version="0.2",
     license="GPL3",
     description="Python3 ANSI VT100 implementation of Erase Screen.",
     author="Carlos A. Planchón",
