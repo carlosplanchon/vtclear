@@ -13,7 +13,7 @@ setup(
     author_email="bubbledoloresuruguay2@gmail.com",
     url="https://github.com/carlosplanchon/vtclear",
     download_url="https://github.com/carlosplanchon/"
-        "reponame/archive/vtclear0.1.tar.gz",
+        "reponame/archive/v0.1.tar.gz",
     keywords=["CLEAR", "VT100", "ANSI"],
     classifiers=[
         "Development Status :: 5 - Stable",
