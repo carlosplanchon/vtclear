@@ -6,14 +6,14 @@ from distutils.core import setup
 setup(
     name="vtclear",
     packages=["vtclear"],
-    version="0.2",
+    version="0.3",
     license="GPL3",
     description="Python3 ANSI VT100 implementation of Erase Screen.",
     author="Carlos A. Planchón",
     author_email="bubbledoloresuruguay2@gmail.com",
     url="https://github.com/carlosplanchon/vtclear",
     download_url="https://github.com/carlosplanchon/"
-        "reponame/archive/v0.1.tar.gz",
+        "reponame/archive/v0.3.tar.gz",
     keywords=["CLEAR", "VT100", "ANSI"],
     classifiers=[
         "Development Status :: 5 - Stable",
