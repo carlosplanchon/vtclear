@@ -4,8 +4,8 @@ from distutils.core import setup
 
 
 setup(
-    name="VTClear",
-    packages=["VTClear"],
+    name="vtclear",
+    packages=["vtclear"],
     version="0.1",
     license="GPL3",
     description="Python3 ANSI VT100 implementation of Erase Screen.",
