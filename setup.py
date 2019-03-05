@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
-import setuptools
+from distutils.core import setup
 
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+setup(
     name="vtclear",
     packages=["vtclear"],
-    version="0.5",
+    version="0.6,
     license="GPL3",
     description="Python3 ANSI VT100 implementation of Erase Screen.",
     long_description=long_description,
@@ -18,7 +18,7 @@ setuptools.setup(
     author_email="bubbledoloresuruguay2@gmail.com",
     url="https://github.com/carlosplanchon/vtclear",
     download_url="https://github.com/carlosplanchon/"
-        "reponame/archive/v0.5.tar.gz",
+        "vtclear/archive/v0.6.tar.gz",
     keywords=["CLEAR", "VT100", "ANSI"],
     classifiers=[
         "Intended Audience :: Developers",
