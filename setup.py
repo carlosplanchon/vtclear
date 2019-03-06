@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="vtclear",
     packages=["vtclear"],
-    version="0.7",
+    version="0.8",
     license="GPL3",
     description="Python3 ANSI VT100 implementation of Erase Screen.",
     long_description=long_description,
@@ -18,7 +18,7 @@ setuptools.setup(
     author_email="bubbledoloresuruguay2@gmail.com",
     url="https://github.com/carlosplanchon/vtclear",
     download_url="https://github.com/carlosplanchon/"
-        "vtclear/archive/v0.7.tar.gz",
+        "vtclear/archive/v0.8.tar.gz",
     keywords=["CLEAR", "VT100", "ANSI"],
     classifiers=[
         "Intended Audience :: Developers",
