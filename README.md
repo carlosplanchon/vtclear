@@ -3,7 +3,7 @@ Python3 ANSI VT100 implementation of Erase Screen
 
 ## installation
 ```
-pip3 install -U vtclear
+pip install -U vtclear
 ```
 
 ## usage
