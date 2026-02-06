@@ -1,9 +1,9 @@
 # vtclear
-Python3 ANSI VT100 implementation of Erase Screen
+Python ANSI VT100 implementation of Erase Screen
 
 ## installation
 ```
-pip install -U vtclear
+uv add vtclear
 ```
 
 ## usage
