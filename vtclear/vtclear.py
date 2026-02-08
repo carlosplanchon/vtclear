@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-VT100 ASCII clear implemented in Python3.
+VT100 ASCII clear implemented in Python.
 http://www.termsys.demon.co.uk/vtansi.htm#erase
 """
 

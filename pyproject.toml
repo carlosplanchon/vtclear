@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vtclear"
-version = "1.0.1"
-requires-python = ">=3.8"
+version = "1.0.2"
+requires-python = ">=3.10"
 authors = [
   { name = "Carlos A. Planchón", email = "carlosandresplanchonprestes@gmail.com" }
 ]
-description = "Python3 ANSI VT100 implementation of Erase Screen."
+description = "Python ANSI VT100 implementation of Erase Screen."
 readme = "README.md"
 keywords = ["CLEAR", "VT100", "ANSI"]
 
@@ -19,8 +19,6 @@ license-files = ["LICENSE"]
 classifiers = [
   "Intended Audience :: Developers",
   "Topic :: Software Development :: Build Tools",
-  "Programming Language :: Python :: 3.8",
-  "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
