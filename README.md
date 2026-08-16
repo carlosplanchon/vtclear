@@ -31,6 +31,7 @@ somewhere other than stdout:
 import sys
 from vtclear import CLEAR_SCREEN
 sys.stderr.write(CLEAR_SCREEN)
+sys.stderr.flush()  # no newline in the sequence, so flush by hand
 ```
 
 ## notes
@@ -39,4 +40,8 @@ it has been the default host on Windows 11 since 22H2. The exception is the
 classic console host, conhost.exe, still the default on Windows 10, where
 virtual terminal processing stays off unless something turns it on and CPython
 does not. There the sequence is printed verbatim instead of clearing, and
-enabling it is the caller's job, e.g. through `colorama.init()`.
+enabling it is the caller's job, e.g. through
+`colorama.just_fix_windows_console()`.
+
+## license
+This project is licensed under the MIT License.
