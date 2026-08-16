@@ -2,12 +2,18 @@
 
 """
 VT100 ASCII clear implemented in Python.
-http://www.termsys.demon.co.uk/vtansi.htm#erase
+https://invisible-island.net/xterm/ctlseqs/ctlseqs.html
 """
+
+from typing import Final
+
+
+#: CSI 2 J (erase the whole display), then CSI H (move the cursor home).
+CLEAR_SCREEN: Final[str] = "\x1b[2J\x1b[H"
 
 
 def clear_screen() -> None:
     """
     Clear the screen.
     """
-    print(f"{chr(27)}[2J{chr(27)}[H", end="")
+    print(CLEAR_SCREEN, end="", flush=True)
